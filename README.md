@@ -106,3 +106,13 @@
     "msg": "op-bmc-api-003 delete success"
 }
 ```
+
+git upagred
+
+```
+wget https://github.com/git/git/archive/refs/tags/v2.17.6.tar.gz
+make configure ./configure 
+./configure --prefix=/usr/local/git
+[root op-jenkins-gitlab-api]# cat /etc/profile.d/git.sh 
+export PATH=$PATH:/usr/local/git/bin
+```
