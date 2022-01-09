@@ -107,6 +107,85 @@
 }
 ```
 
+**git获取项目分支**
+```
+**请求URL：** 
+- `http://devops-bmc-api.com/gilab/api/v1`
+{
+code: 0,
+data: [
+{
+login: [
+{
+author: "breaklinux",
+date: "2022-01-09 17:30",
+id: "37fbb2326240966d3e3596620d1eac1b8f0cb12e",
+message: "shell脚本"
+},
+{
+author: "breaklinux",
+date: "2022-01-09 17:17",
+id: "2c1821fac4caaff1e45e60c6d3f3c95464c9a63d",
+message: "我测试呀"
+},
+{
+author: "Administrator",
+date: "2022-01-09 17:06",
+id: "95563d7291012a1417ec23217422babbba050d95",
+message: "Update type"
+},
+{
+author: "Administrator",
+date: "2022-01-09 17:06",
+id: "2bb49dc0dc880168ebf3e89568f2d5eaa562b007",
+message: "Add new file"
+},
+{
+author: "Administrator",
+date: "2022-01-09 16:51",
+id: "f6b305fc3e68302fa0ead2ed1848fb9a38c6efc6",
+message: "Initial commit"
+}
+],
+main: [
+{
+author: "Administrator",
+date: "2022-01-09 17:06",
+id: "95563d7291012a1417ec23217422babbba050d95",
+message: "Update type"
+},
+{
+author: "Administrator",
+date: "2022-01-09 17:06",
+id: "2bb49dc0dc880168ebf3e89568f2d5eaa562b007",
+message: "Add new file"
+},
+{
+author: "Administrator",
+date: "2022-01-09 16:51",
+id: "f6b305fc3e68302fa0ead2ed1848fb9a38c6efc6",
+message: "Initial commit"
+}
+]
+},
+{
+k8s#20220209001: {
+author: "Administrator",
+date: "2022-01-09 17:08",
+id: "cd93ba23056b6ef836e9d715b228aa8e89674d88",
+message: "测试k8s"
+},
+k8s#20220209002: {
+author: "Administrator",
+date: "2022-01-09 18:02",
+id: "83b50b67c75e5bdfbffb496efb6450ab5c4e02d0",
+message: "k8s#20220209002"
+}
+}
+]
+}
+```
+
 git upagred
 
 ```
